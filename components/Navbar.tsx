@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between p-4 bg-blue-600 text-white">
-      <Link href="/" className="font-bold text-xl">
+      <Link href="/" className="font-bold text-xl hover:underline">
         TaskDash
       </Link>
       <div>
